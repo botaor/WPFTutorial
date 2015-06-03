@@ -2,7 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="My Hello World application" Height="350" Width="525">
-    <Grid>
+    <Grid Name="mainGrid" MouseUp="mainGrid_MouseUp" Background="Transparent">
         <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="Hello WPF!" VerticalAlignment="Center" FontSize="48" IsReadOnly="True"/>
         <Button HorizontalAlignment="Left" Margin="330,255,0,0" VerticalAlignment="Top" Width="133" Click="Button_Click" Cursor="Hand">
             <WrapPanel>
@@ -11,6 +11,5 @@
                 <TextBlock>Button</TextBlock>
             </WrapPanel>
         </Button>
-
     </Grid>
 </Window>

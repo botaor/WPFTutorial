@@ -29,5 +29,10 @@ namespace HelloWPF
         {
             MessageBox.Show( "Button clicked!" ) ;
         }
+
+        private void mainGrid_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("You clicked me at " + e.GetPosition(this).ToString());
+        }
     }
 }
