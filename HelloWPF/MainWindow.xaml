@@ -4,6 +4,13 @@
         Title="My Hello World application" Height="350" Width="525">
     <Grid>
         <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="Hello WPF!" VerticalAlignment="Center" FontSize="48" IsReadOnly="True"/>
+        <Button HorizontalAlignment="Left" Margin="330,255,0,0" VerticalAlignment="Top" Width="133" Click="Button_Click" Cursor="Hand">
+            <WrapPanel>
+                <TextBlock Foreground="Blue">Multi</TextBlock>
+                <TextBlock Foreground="Red">Color</TextBlock>
+                <TextBlock>Button</TextBlock>
+            </WrapPanel>
+        </Button>
 
     </Grid>
 </Window>
