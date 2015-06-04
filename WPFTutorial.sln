@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWPF", "HelloWPF\HelloWPF.csproj", "{B9C5497C-8E19-494E-B263-D1774BC6195D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextControl", "TextControl\TextControl.csproj", "{A42FEF80-F297-416F-AB78-ED9E3F25D05B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B9C5497C-8E19-494E-B263-D1774BC6195D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9C5497C-8E19-494E-B263-D1774BC6195D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9C5497C-8E19-494E-B263-D1774BC6195D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42FEF80-F297-416F-AB78-ED9E3F25D05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42FEF80-F297-416F-AB78-ED9E3F25D05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42FEF80-F297-416F-AB78-ED9E3F25D05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42FEF80-F297-416F-AB78-ED9E3F25D05B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
