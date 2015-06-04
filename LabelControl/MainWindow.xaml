@@ -1,0 +1,23 @@
+﻿<Window x:Class="LabelControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Label control samples" Height="350" Width="525">
+    <StackPanel Margin="10">
+        <Label Content="This is a Label control." />
+        <Label Target="{Binding ElementName=txtName}">
+            <StackPanel Orientation="Horizontal">
+                <!--Image must be set as Build Action=resource on project tree...-->
+                <Image Source="bullet_green.png" />
+                <AccessText Text="Na_me:" />
+            </StackPanel>
+        </Label>
+        <TextBox Name="txtName" />
+        <Label Target="{Binding ElementName=txtMail}">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="bullet_blue.png" />
+                <AccessText Text="_Mail:" />
+            </StackPanel>
+        </Label>
+        <TextBox Name="txtMail" />
+    </StackPanel>
+</Window>
