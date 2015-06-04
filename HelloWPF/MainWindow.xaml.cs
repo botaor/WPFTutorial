@@ -23,6 +23,20 @@ namespace HelloWPF
         public MainWindow()
         {
             InitializeComponent();
+
+            GetResources();
+        }
+
+        private void GetResources()
+        {
+            string str ;
+
+            str = Application.Current.FindResource("GlobalText").ToString() ;
+            str = this.FindResource("strHelloWorld").ToString() ;
+            str = SPanel.FindResource("ComboBoxTitle").ToString() ;
+
+            // if it is not found in the current scope, then move up untill it is found
+            str = SPanel.FindResource("GlobalText").ToString() ;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
