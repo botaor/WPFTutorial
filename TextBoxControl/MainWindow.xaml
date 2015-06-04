@@ -12,5 +12,8 @@
         <Label Content="Result:" />
         <TextBox Name="txtStatus" AcceptsReturn="True" TextWrapping="Wrap" IsReadOnly="True" />
         <Button Content="Make selection" Click="Button_Click"/>
+        <Label>Password:</Label>
+        <!--<PasswordBox MaxLength="6" PasswordChar="X"/>-->
+        <PasswordBox MaxLength="6"/>
     </StackPanel>
 </Window>
