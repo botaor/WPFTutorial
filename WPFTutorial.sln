@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBlockControl", "TextCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelControl", "LabelControl\LabelControl.csproj", "{C06F70CA-B8B1-4630-B8E5-E91FECA9684A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBoxControl", "TextBoxControl\TextBoxControl.csproj", "{C03E6AAE-B551-48F1-BE3F-4179AF894165}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C06F70CA-B8B1-4630-B8E5-E91FECA9684A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C06F70CA-B8B1-4630-B8E5-E91FECA9684A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C06F70CA-B8B1-4630-B8E5-E91FECA9684A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03E6AAE-B551-48F1-BE3F-4179AF894165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03E6AAE-B551-48F1-BE3F-4179AF894165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03E6AAE-B551-48F1-BE3F-4179AF894165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03E6AAE-B551-48F1-BE3F-4179AF894165}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

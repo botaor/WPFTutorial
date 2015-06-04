@@ -1,0 +1,16 @@
+﻿<Window x:Class="TextBoxControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TextBox control samples" Height="350" Width="525">
+    <StackPanel Margin="10">
+        <Label Content="Simple TextBox:" />
+        <TextBox Text="Hello, world!" />
+        <Label Content="Multi line TextBox:" />
+        <TextBox Text="First line" AcceptsReturn="True" TextWrapping="Wrap" SpellCheck.IsEnabled="True" Language="en-US" />
+        <Label Content="Write:" />
+        <TextBox x:Name="myText" SelectionChanged="TextBox_SelectionChanged" />
+        <Label Content="Result:" />
+        <TextBox Name="txtStatus" AcceptsReturn="True" TextWrapping="Wrap" IsReadOnly="True" />
+        <Button Content="Make selection" Click="Button_Click"/>
+    </StackPanel>
+</Window>
