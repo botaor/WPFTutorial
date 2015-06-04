@@ -21,4 +21,4 @@ Written by [Rui Botão][rui].<br>
 Jun 2015
 
 
-[rui]: mailto:rui.botao@softfinanca.com "Rui"
+[rui]: mailto:rui@ruibotao.com "Rui"
