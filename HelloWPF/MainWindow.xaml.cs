@@ -48,5 +48,21 @@ namespace HelloWPF
         {
             MessageBox.Show("You clicked me at " + e.GetPosition(this).ToString());
         }
+
+        private void butException_Click(object sender, RoutedEventArgs e)
+        {
+            string s = null;
+            try
+            {
+                s.Trim();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("A handled exception just occurred: " + ex.Message, "Exception Sample", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+
+            // raise another exception to be caught by the global handler
+            s.Trim();
+        }
     }
 }
