@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelControl", "LabelContro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBoxControl", "TextBoxControl\TextBoxControl.csproj", "{C03E6AAE-B551-48F1-BE3F-4179AF894165}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBoxControl", "CheckBoxControl\CheckBoxControl.csproj", "{EB580B6C-1FC2-4665-B8AC-FF9455E7F82D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C03E6AAE-B551-48F1-BE3F-4179AF894165}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C03E6AAE-B551-48F1-BE3F-4179AF894165}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C03E6AAE-B551-48F1-BE3F-4179AF894165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB580B6C-1FC2-4665-B8AC-FF9455E7F82D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB580B6C-1FC2-4665-B8AC-FF9455E7F82D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB580B6C-1FC2-4665-B8AC-FF9455E7F82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB580B6C-1FC2-4665-B8AC-FF9455E7F82D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
