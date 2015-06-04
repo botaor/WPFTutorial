@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWPF", "HelloWPF\HelloWPF.csproj", "{B9C5497C-8E19-494E-B263-D1774BC6195D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextControl", "TextControl\TextControl.csproj", "{A42FEF80-F297-416F-AB78-ED9E3F25D05B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBlockControl", "TextControl\TextBlockControl.csproj", "{A42FEF80-F297-416F-AB78-ED9E3F25D05B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelControl", "LabelControl\LabelControl.csproj", "{C06F70CA-B8B1-4630-B8E5-E91FECA9684A}"
 EndProject
