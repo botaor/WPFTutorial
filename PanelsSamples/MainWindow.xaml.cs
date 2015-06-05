@@ -42,5 +42,11 @@ namespace PanelsSamples
             WndStack wnd = new WndStack() ;
             wnd.ShowDialog() ;
         }
+
+        private void buttonDock_Click(object sender, RoutedEventArgs e)
+        {
+            WndDock wnd = new WndDock() ;
+            wnd.ShowDialog() ;
+        }
     }
 }

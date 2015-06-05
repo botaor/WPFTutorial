@@ -56,6 +56,9 @@
     <Compile Include="WndCanvas.xaml.cs">
       <DependentUpon>WndCanvas.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WndDock.xaml.cs">
+      <DependentUpon>WndDock.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WndStack.xaml.cs">
       <DependentUpon>WndStack.xaml</DependentUpon>
     </Compile>
@@ -75,6 +78,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="WndCanvas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WndDock.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
