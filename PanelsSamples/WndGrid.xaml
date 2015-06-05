@@ -1,0 +1,32 @@
+﻿<Window x:Class="PanelsSamples.WndGrid"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Grid Panel Sample" Height="300" Width="376">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Button>Button 1</Button>
+        <Button Grid.Column="1">Button 2</Button>
+        <Button Grid.Column="3">Button 3</Button>
+        <Button Grid.Row="1">Button 4</Button>
+        <Button Grid.Column="1" Grid.Row="1">Button 5</Button>
+        <Button Grid.Column="3" Grid.Row="1" Grid.RowSpan="2">Button 6</Button>
+        <Button Grid.Row="2" Grid.ColumnSpan="2">Button 7</Button>
+        <!--<Button Grid.Column="1" Grid.Row="2">Button 8</Button>-->
+        <!--<Button Grid.Column="3" Grid.Row="2">Button 9</Button>-->
+        <Button Grid.Column="4">Button 10</Button>
+        <Button Grid.Column="4" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center">B 11</Button>
+        <Button Grid.Column="4" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Right">B 12</Button>
+        <GridSplitter Grid.Column="2"  Grid.RowSpan="3"  Width="5" HorizontalAlignment="Stretch" />
+    </Grid>
+</Window>

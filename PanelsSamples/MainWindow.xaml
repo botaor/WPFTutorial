@@ -7,5 +7,7 @@
         <Button x:Name="buttonWrap" Content="Wrap" HorizontalAlignment="Left" Margin="25,57,0,0" VerticalAlignment="Top" Width="75" Click="buttonWrap_Click"/>
         <Button x:Name="buttonStack" Content="Stack" HorizontalAlignment="Left" Margin="25,91,0,0" VerticalAlignment="Top" Width="75" Click="buttonStack_Click"/>
         <Button x:Name="buttonDock" Content="Dock" HorizontalAlignment="Left" Margin="25,128,0,0" VerticalAlignment="Top" Width="75" Click="buttonDock_Click"/>
+        <Button x:Name="buttonGrid" Content="Grid" HorizontalAlignment="Left" Margin="25,165,0,0" VerticalAlignment="Top" Width="75" Click="buttonGrid_Click"/>
+        <Button x:Name="buttonGridContact" Content="Grid Contact" HorizontalAlignment="Left" Margin="25,200,0,0" VerticalAlignment="Top" Width="75" Click="buttonGridContact_Click"/>
     </Grid>
 </Window>

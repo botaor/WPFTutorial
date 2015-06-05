@@ -48,5 +48,17 @@ namespace PanelsSamples
             WndDock wnd = new WndDock() ;
             wnd.ShowDialog() ;
         }
+
+        private void buttonGrid_Click(object sender, RoutedEventArgs e)
+        {
+            WndGrid wnd = new WndGrid() ;
+            wnd.ShowDialog() ;
+        }
+
+        private void buttonGridContact_Click(object sender, RoutedEventArgs e)
+        {
+            WndGridContact wnd = new WndGridContact() ;
+            wnd.ShowDialog() ;
+        }
     }
 }

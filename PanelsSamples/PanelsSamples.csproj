@@ -59,6 +59,12 @@
     <Compile Include="WndDock.xaml.cs">
       <DependentUpon>WndDock.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WndGrid.xaml.cs">
+      <DependentUpon>WndGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WndGridContact.xaml.cs">
+      <DependentUpon>WndGridContact.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WndStack.xaml.cs">
       <DependentUpon>WndStack.xaml</DependentUpon>
     </Compile>
@@ -82,6 +88,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="WndDock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WndGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WndGridContact.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
