@@ -25,9 +25,15 @@ namespace PanelsSamples
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void buttonCanvas_Click(object sender, RoutedEventArgs e)
         {
             WndCanvas wnd = new WndCanvas() ;
+            wnd.ShowDialog() ;
+        }
+
+        private void buttonWrap_Click(object sender, RoutedEventArgs e)
+        {
+            WndWrap wnd = new WndWrap() ;
             wnd.ShowDialog() ;
         }
     }
